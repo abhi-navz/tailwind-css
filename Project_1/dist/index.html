@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tailwind css</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="bg-slate-950">
+    <h1 class="text-white text-3xl ">Testing tailwind</h1>
+  </body>
+</html>
+
+<!--  *********** INSTALLATION OF TAILWIND CSS IN PROJECT *************
+    * create two folders 'dist' and 'src' make an index.html in 'dist' folder
+
+    * Open the terminal in project directorr
+
+    * run 'npx tailwindcss init' a tailwind.config.js file will be generated in project directory
+
+    * create a file in src folder 'input.css'
+     add three lines in input.css
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+
+    * add the index.html file in content section of tailwind.config.js file to specify where we are writing the content
+        content: ["./dist/index.html"],    
+    
+    
+    run the following command to generate a ouput.css file in terminal
+
+         npx tailwindcss -i ./src/input.css -o ./dist/style.css 
+         a style.css file will be generated in dist folder
+
+    link the generated 'style.css' file in head section of ur html
+    
+    And done now the istallation of tailwind is done and we can use it now.
+
+    run  npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch command in terminal it'll automatically keep a watch and will generate the css.
+ -->
